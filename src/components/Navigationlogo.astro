@@ -1,0 +1,21 @@
+---
+import Logo from "./Logo.astro";
+import HomeSearch from "./HomeSearch.astro";
+---
+
+<nav>
+  <Logo />
+  <HomeSearch header="Home" url="/home.svg"/>
+  <HomeSearch header="Search" url="/search-icon.svg"/>
+</nav>
+
+<style>
+  nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 25vh;
+    background-color: rgba(46, 43, 43, 0.998);
+    border-radius: 8px;
+  }
+</style>

@@ -1,0 +1,28 @@
+---
+import NavigationLogin from "../components/NavigationLogin.astro";
+import ChildBox from "./ChildBox.astro";
+---
+
+<section>
+  <NavigationLogin />
+  <ChildBox />
+  <ChildBox />
+  <ChildBox />
+  <ChildBox />
+</section>
+
+<style>
+  section {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(46, 43, 43, 1);
+    width: 100%;
+    height: 100%;
+    grid-column: 2;
+    overflow: hidden;
+    border-top-left-radius: 8px; /* Radius for top-left corner */
+    border-top-right-radius: 8px;
+
+    
+  }
+</style>

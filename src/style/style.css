@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 0.5em;
+    
+   
+}
+/* *{
+    border-radius: 8px;
+} */
+
+
+

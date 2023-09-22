@@ -1,0 +1,32 @@
+---
+import NavButtons from "./NavButtons.astro";
+import Loginbutton from "./Loginbutton.astro";
+---
+
+<nav>
+  <div>
+    <NavButtons />
+  </div>
+  <div>
+    <Loginbutton  header="Login In" color="black"/>
+    <Loginbutton header="Sign Up" color="white"/>
+  </div>
+</nav>
+
+<style>
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(46, 43, 43, 0.8);
+    border-top-left-radius: 8px; /* Radius for top-left corner */
+    border-top-right-radius: 8px;
+    /* width: calc(100% - 300px); */
+    
+    background-color: rgb(19, 18, 18);
+    
+    /* position: fixed; */
+  }
+  a {
+  }
+</style>

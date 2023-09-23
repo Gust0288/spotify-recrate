@@ -1,0 +1,35 @@
+---
+const { header, color } = Astro.props;
+---
+
+<article class={color + ""}>
+  <h4>{header}</h4>
+</article>
+
+<style>
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(101, 96, 96, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    width: 160px;
+    height: 250px;
+  }
+  .purple {
+    background-color: blueviolet;
+  }
+  .yellow {
+    background-color: yellow;
+  }
+  .green {
+    background-color: green;
+  }
+  .orange {
+    background-color: orange;
+  }
+  .pink {
+    background-color: pink;
+  }
+</style>

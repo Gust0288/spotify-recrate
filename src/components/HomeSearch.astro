@@ -1,8 +1,10 @@
 ---
-const { header, url } = Astro.props;
+
+
+const { header, url, destination } = Astro.props;
 ---
 
-<a href=""><img src={url} alt="" /><h3>{header}</h3></a>
+<a href={destination}><img src={url} alt="" /><h3>{header}</h3></a>
 
 <style>
   a {

@@ -1,25 +1,11 @@
 ---
 import "../style/style.css";
-
-import LibraryNav from "../components/Librarynav.astro";
-import MusicCards from "../components/MusicCards.astro";
 import Mainbox from "../components/Mainbox.astro";
-import NavigationLogin from "../components/NavigationLogin.astro";
-import Navigationlogo from "../components/Navigationlogo.astro";
-import LeftBox from "../components/LeftBox.astro";
+import MainLayout from "../layouts/MainLayout.astro";
+
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
-  </head>
-  <body>
-    <LeftBox />
 
+<MainLayout>
     <Mainbox />
-  </body>
-</html>
+  </MainLayout>

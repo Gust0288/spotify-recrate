@@ -1,0 +1,40 @@
+---
+import MusicCards from "./MusicCardsSearch.astro";
+---
+
+<article>
+  <MusicCards
+    header="Top Denmark"
+    imagePath="https://picsum.photos/id/68/150/150"
+    color="yellow"
+  />
+  <MusicCards
+    header="Top Global"
+    imagePath="https://picsum.photos/id/65/150/150"
+    color="purple"
+  />
+  <MusicCards
+    header="Pop"
+    imagePath="https://picsum.photos/id/76/150/150"
+    color="green"
+  />
+  <MusicCards
+    header="Country"
+    imagePath="https://picsum.photos/id/240/150/150"
+    color="pink"
+  />
+  <MusicCards
+    header="Rock"
+    imagePath="https://picsum.photos/id/331/150/150"
+    color="orange"
+  />
+</article>
+
+<style>
+  article {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    margin-top: 10px;
+  }
+</style>
